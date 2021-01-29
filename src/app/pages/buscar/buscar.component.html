@@ -1,0 +1,7 @@
+<h1>Buscar peliculas: <small>{{title}}</small> </h1>
+
+
+
+<div *ngIf="peliculas.length > 0">
+    <app-peliculas-poster-grid [movies]="peliculas"></app-peliculas-poster-grid>
+</div>
